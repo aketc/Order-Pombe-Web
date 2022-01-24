@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    
+            table, th,td{
+             border: 2px solid black;
+             border-collapse: collapse;
+             padding: 5px;
+             width: 40%;
+             margin: 20px;
+             background-color: rgba(255, 255, 255, 0.144);
+             text-align: start;
+             color: white;
+
+        }
+        h1 {
+            text-align: center;
+            padding: 0px;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            text-shadow: rgb(14, 14, 14) 20px;
+
+        }
+        a {
+            text-decoration: none;
+            color: yellow;
+            padding-left: 10px;
+        }
+        td{
+             padding-bottom: 10px;
+
+        }
+        table.right{
+            margin-right: auto;
+             margin-left: auto;
+         }
+             
+
+
+        /* .column {
+            position: relative;
+            color: whitesmoke;  
+            font-size: 60px; 
+            font-style: italic; 
+        } */
+        .top-left{
+            position: absolute;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+        }
+        .row:after {
+            content: none;
+            display: table;
+            clear: both;
+        }
+        body {
+            background-image: url(./Images/pexels-photo-715995.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: blur;
+           
+        }
+        p {
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            position: relative;
+            top: 10px;
+            color: wheat;
+        }
+        h2 {
+            color: rgb(255, 255, 255);
+            font-family: cursive;
+        }
+        h3{
+            color: chartreuse;
+            font-size: 16px;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD TO CART</title>
+</head>
+<body>
+    <h1>ORDER POMBE</h1>
+    <p>"Your Booze Delivery Needs"</p>
+
+    <div>
+        <div class="row">
+            <div class="column" style="background-color: rgba(244, 245, 179, 0.021);">
+                <h2>WINES</h2>
+                <img src="./Images/Wines.png" alt="width 50" height="150">
+
+               
+            <select type="radio" name="Liqour" id="types">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select><br>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0.021);">
+                <h2>WHISKEY</h2>
+                <img src="./Images/Whiskey.jpg" alt="width 50" height="150">
+               
+            <select type="radio" name="Liqour" id="type of alcohol">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select><br>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0.007);">
+                <h2>BEERS</h2>
+                <img src="./Images/bbeer.jpg" alt="width 50" height="150">
+            
+            <select type="radio" name="Liqour" id="type of alcohol">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select><br>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0);">
+                <h2>VODKA</h2>
+                <img src="./Images/vodo.jpg" alt="width 50" height="150">
+            <select type="radio" name="Liqour" id="type of alcohol">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 245, 220, 0);">
+                <h2>BRANDY</h2>
+               <img src="./Images/download (2).jpg" alt="width 50" height="150"">
+
+                <select type="radio" name="Liqour" id="type of alcohol">
+                    <option value="Gin">Gin</option>
+                    <option value="Whiskey">Whiskey</option>
+                    <option value="Beer">Beer</option>
+                    <option value="Wine">Wine</option>
+                    <option value="Rum">Rum</option>
+                    <option value="Spirit">Spirits</option>
+                    <option value="Other">Other</option>
+                </select><br>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0.041);">
+                <h2>GIN</h2>
+                <img src="./Images/images (5).jpg" alt="width 50" height="150">
+                
+            <select type="radio" name="Liqour" id="type of alcohol">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select><br>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0);">
+                <h2>COGNAC</h2>
+                <img src="./Images/download (3).jpg" alt="width 50" height="150">
+            <select type="radio" name="Liqour" id="type of alcohol">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select><br>
+
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0);">
+                <h2>RUM</h2>
+                <img src="./Images/rum.jpg" alt="width 50" height="150">
+               
+            <select type="radio" name="Liqour" id="type of alcohol">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select><br>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0);">
+                <h2>CHAMPAGNE</h2>
+                <img src="./Images/images (7).jpg" alt="width 50" height="150">
+                
+            <select type="radio" name="Liqour" id="type of alcohol">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select><br>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0);">
+                <h2>TEQUILLA</h2>
+                <img src="./Images/images (6).jpg" alt="width 50" height="150">
+                
+            <select type="radio" name="Liqour" id="type of alcohol">
+                <option value="Gin">Gin</option>
+                <option value="Whiskey">Whiskey</option>
+                <option value="Beer">Beer</option>
+                <option value="Wine">Wine</option>
+                <option value="Rum">Rum</option>
+                <option value="Spirit">Spirits</option>
+                <option value="Other">Other</option>
+            </select><br>
+            </div>
+
+            <div class="column" style="background-color: rgba(245, 222, 179, 0);">
+                <h2>LIQEUER</h2>
+                <img src="./Images/download (5).jpg" alt="width 50" height="150">
+                <select type="radio" name="Liqour" id="type of alcohol">
+                    <option value="Gin">Gin</option>
+                    <option value="Whiskey">Whiskey</option>
+                    <option value="Beer">Beer</option>
+                    <option value="Wine">Wine</option>
+                    <option value="Rum">Rum</option>
+                    <option value="Spirit">Spirits</option>
+                    <option value="Other">Other</option>
+                </select><br>
+            </div>
+
+             <div class="column" style="background-color: rgba(245, 222, 179, 0);">
+                <h2>TOTS</h2>
+                <img src="./Images/images (2).jpg" alt="width 50" height="150">
+                <select name="text" id="On Order">
+                 <option value="text">On Order</option>
+                </select>
+
+            
+
+            </div>
+        </div>
+
+<div>
+    <table class="right">
+        <tr>
+    <th>DRINK</th>
+    <th>LITRE(S)</th>
+    <th>AMOUNT</th>
+    <th>TOTAL AMOUNT</th>
+     </tr>
+     <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+     </tr>
+     <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+     </tr>
+    
+</table>
+ <div>
+    <a href="Details.html"> ORDER LIQOUR</a> 
+</div>
+</div>
+</div>
+</body>
+</html>
